@@ -26,11 +26,11 @@ pipeline{
                file: 'target/bioMedical-0.0.1-SNAPSHOT.jar', 
                type: 'jar']], credentialsId: 'NexusID',
                 groupId: 'qa', 
-                nexusUrl: '198.58.119.40:8081/repository/geolocation/', 
+                nexusUrl: '18.235.233.18:8081', 
                 nexusVersion: 'nexus3',
                  protocol: 'http',
                  repository: 'geolocation', 
-                 version: '001'
+                 version: '0.0.1'
         }
     }
     }
