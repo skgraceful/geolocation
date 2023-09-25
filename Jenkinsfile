@@ -21,7 +21,7 @@ pipeline{
     }
     stage('upload artifact'){
         steps{
-            sh 'curl --upload-file target/bioMedical-0.0.2-SNAPSHOT.jar -u admin:devops -v http://ec2-18-235-233-18.compute-1.amazonaws.com:8081/repository/geolocation/'
+            sh 'curl --upload-file target/bioMedical-0.0.2-SNAPSHOT.jar -u admin:devops -v http://198.58.119.40:8081/repository/geolocation/'
         }
     }
     }
